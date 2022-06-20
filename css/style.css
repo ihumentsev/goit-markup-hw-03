@@ -52,6 +52,9 @@ ul {
 /* главная */
 
 /* Шапка */
+header {
+    border: 1px solid #ECECEC;
+}
 
 header .conteiner {
     display: flex;
@@ -60,7 +63,6 @@ header .conteiner {
 }
 .nav-header {
     display: flex;
-    margin-right: 331px;
     align-items: center;
 }
 
@@ -94,6 +96,9 @@ header .conteiner {
 }
 
 .nav-link {
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -106,6 +111,9 @@ header .conteiner {
 }
 
 .active-page {
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -113,7 +121,9 @@ header .conteiner {
 }
 
 
-.header-contact {}
+.header-contact {
+    margin-left: auto;
+}
 
 .contact-list {
     display: flex;
@@ -126,6 +136,9 @@ header .conteiner {
 }
 
 .contact-link {
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -280,7 +293,7 @@ header .conteiner {
 
 .team-item-text {
     font-size: 16px;
-    line-height: 1.18px;  
+    line-height: 1.18;  
     letter-spacing: 0.03em;
 }
 
@@ -338,6 +351,7 @@ header .conteiner {
 
 
 .project-title {
+    margin-bottom: 4px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -346,30 +360,25 @@ header .conteiner {
 .project-list {
   display: flex; 
   flex-wrap: wrap; 
-  justify-content: space-between;
+  gap: 30px 30px;
   
 }
 
 .project-item {
     width: 370px;
     padding-bottom: 20px;
-    margin-bottom: 30px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
 
-
- .project-img {
+.project-description {
+    padding: 24px 20px;
+}
+.project-img {
     margin-bottom: 20px;
  }
 
- .project-title {
-    margin-left: 24px;
-    margin-bottom: 4px;
- }
-
 .project-text {
-    margin-left: 24px;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -391,7 +400,7 @@ address {
     margin-top: 20px;
     font-style: normal;
 }
-address li {
+.adress-item:not(:last-child) {
     margin-bottom: 10px;
 }
 
@@ -403,9 +412,14 @@ address li {
     color: var(--next-text-color);
 }
 .address-link {
-    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+
 
 .address-link:hover,
 :focus {
