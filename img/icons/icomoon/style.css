@@ -1,0 +1,48 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.envelope {
+  width: 1.3330078125em;
+}
+
+.Company_1 {
+  width: 1.7666015625em;
+}
+
+.Company_2 {
+  width: 1.7666015625em;
+}
+
+.Company_3 {
+  width: 1.7666015625em;
+}
+
+.Company_4 {
+  width: 1.7666015625em;
+}
+
+.Company_5 {
+  width: 1.7666015625em;
+}
+
+.Company_6 {
+  width: 1.7666015625em;
+}
+
+.smartphone {
+  width: 0.625em;
+}
